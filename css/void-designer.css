@@ -68,7 +68,7 @@ body{
 
 .headline h2::before{
   content:"";
-  background: #F9ED32;
+  background: rgb(50, 249, 83);
   height: 2px;
   width: 90px;
   position: absolute;
@@ -77,8 +77,8 @@ body{
   transform: translateX(-50%);
 }
 
-.yellow{
-  color: #F9ED32;
+.Green{
+  color: rgb(50, 249, 83);
 }
 
 .white{
@@ -122,8 +122,8 @@ section{
 }
 
 .btn-primary{
-  background: #F9ED32;
-  border: 2px solid #F9ED32;
+  background:rgb(50, 249, 83);
+  border: 2px solid rgb(50, 249, 83);
   padding: 6px 30px;
   font-family: "Ailerons";
   color: #fff;
@@ -135,18 +135,18 @@ section{
 .btn-primary:hover,
 .btn-primary:active,
 .btn-primary:focus{
-  background: #D7DF23;
-  border: 2px solid #D7DF23;
+  background: #2e9616;
+  border: 2px solid #2e9616;
   color: #fff;
   transition: all .5s;
 }
 
 .btn-secondary{
   background: transparent;
-  border: 2px solid #F9ED32;
+  border: 2px solid rgb(50, 249, 83);
   padding: 6px 30px;
   font-family: "Ailerons";
-  color: #F9ED32;
+  color: rgb(50, 249, 83);
   font-size: 25px;
   border-radius: 0;
   margin-bottom: 20px;
@@ -233,7 +233,7 @@ nav.nav-center-aligned .navbar-nav li a{
 nav.nav-center-aligned .navbar-nav li a:hover,
 nav.nav-center-aligned .navbar-nav li a:focus,
 nav.nav-center-aligned .navbar-nav li a:active{
-  color: #F9ED32;
+  color: rgb(2, 169, 29);
   transition: all 1s;
 }
 
@@ -242,7 +242,7 @@ nav.nav-center-aligned .navbar-nav li.active a:hover
 nav.nav-center-aligned .navbar-nav li.active a:active,
 nav.nav-center-aligned .navbar-nav li.active a:focus{
   background: transparent !important;
-  color: #F9ED32 !important;
+  color: rgb(50, 249, 83);
   transition: all .2s;
 }
 
@@ -280,7 +280,7 @@ Intro Section
 ==================================================*/
 
 #intro{
-  background: #000;
+  background: #fff;
   text-align: center;
   position: relative;
 }
@@ -454,7 +454,7 @@ Services Section
 .service-background .violate{
   height: 700px;
   width: 40%;
-  background: #662D91;
+  background: rgba(50, 249, 83, 0.575);
   position: absolute;
   left: 0;
   z-index: 100;
@@ -462,13 +462,13 @@ Services Section
 
 .service-background .violate::after{
   content: "";
-   border-color: #662D91 transparent transparent;
-   border-style: solid;
-   border-width: 700px 200px 0 0;
-   position: absolute;
-   top: 0;
-   right: -200px;
-   z-index: 100;
+  border-color: rgba(50, 249, 83, 0.575) transparent transparent;
+  border-style: solid;
+  border-width: 700px 200px 0 0;
+  position: absolute;
+  top: 0;
+  right: -200px;
+  z-index: 100;
 }
 
 .service-background .dark{
@@ -508,7 +508,7 @@ Services Section
 
 .service-contents .service-item span.service-icon{
   float: left;
-  color: #F9ED32;
+  color: rgb(50, 249, 83);
   font-size: 50px;
   margin-top: -10px;
 }
@@ -621,7 +621,7 @@ ul.folio-menu li::after{
   background: none;
   height: 20px;
   width: 1px;
-  border-right: 2px solid #f9ed32;
+  border-right: 2px solid rgb(50, 249, 83);
   position: absolute;
   right: -1px;
   top: 5px;
@@ -928,7 +928,7 @@ form.contact-form .form-group .form-control{
 }
 
 .contact-info{
-  background: #662d91;
+  background: rgb(50, 249, 83);
   height: 750px;
   width: 100%;
   position: relative;
