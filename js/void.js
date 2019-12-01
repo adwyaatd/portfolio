@@ -24,6 +24,8 @@ $(window).on('load', function() {
         }
     });
 
+    //intro background//
+
     //testimonial carousel
     $('#carousel-testimonials').carousel({
         interval: 3000 //TIME IN MILLI SECONDS
@@ -125,7 +127,6 @@ $(window).on('load', function() {
     });
 
 }(jQuery));
-
 
 /*---- helper functions ----*/
 
