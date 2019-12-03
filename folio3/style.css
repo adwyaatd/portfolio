@@ -1,0 +1,10 @@
+#main-visual{
+    background: url(/img/main-visual.jpg) no-repeat center center;
+    background-size: cover;
+    color: #fff;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    margin-top: 0;
+    min-height: 650px;
+}
