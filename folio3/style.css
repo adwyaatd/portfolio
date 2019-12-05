@@ -52,40 +52,28 @@ section h2::before {
   bottom: 0;
 }
 
-#about .inner .flex {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+#about .inner .histories {
+  margin-left: 5%;
+  margin-right: 5%;
 }
 
-#about .inner .flex > div {
+#about .inner .row .history {
   width: 30%;
 }
 
-#about .inner .flex > div p {
-  padding-top: 2rem;
-  font-size: 1.4rem;
-}
-
-#about .inner .flex .ttl {
+#about .inner .row .history .ttl {
   text-align: center;
   letter-spacing: 2px;
   line-height: 100%;
 }
 
-#about .inner .flex .ttl .top {
+#about .inner .row .history .ttl .top {
   font-weight: 500;
   padding-top: 0;
   font-size: 1.8rem;
 }
 
-#about .inner .flex .ttl .bottom {
+#about .inner .row .history .ttl .bottom {
   color: #000000;
   font-weight: bold;
   font-size: 3rem;
@@ -94,9 +82,172 @@ section h2::before {
   padding-bottom: 30px;
 }
 
-#about .inner .flex .ttl .bottom span {
+#about .inner .row .history .ttl .bottom span {
   font-size: 6rem;
   font-family: "0swald", sans-serif;
   font-weight: 400;
+}
+
+#about .inner .row .history p {
+  padding-top: 2rem;
+  font-size: 1.4rem;
+}
+
+#about .inner .aboutCompany {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 120rem;
+}
+
+#about .inner .aboutCompany .company {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  position: relative;
+  margin-top: 6.0rem;
+}
+
+#about .inner .aboutCompany .company figure {
+  display: block;
+  z-index: 1;
+  -webkit-box-ordinal-group: 3;
+      -ms-flex-order: 2;
+          order: 2;
+  position: absolute;
+  right: 0;
+}
+
+#about .inner .aboutCompany .company .text {
+  background-color: #222;
+  color: #fff;
+  max-width: 500px;
+  min-height: 400px;
+  padding: 4.0rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 40px;
+  z-index: 2;
+}
+
+#about .inner .aboutCompany .company .text .text_h3 {
+  font-size: 6.0rem;
+  font-family: 'Arial', sans-serif;
+  letter-spacing: 3px;
+  line-height: 100%;
+  margin-bottom: 24px;
+}
+
+#about .inner .aboutCompany .company .text p {
+  font-size: 1.4rem;
+}
+
+#about .inner .aboutCompany .company .text .more a {
+  border-color: #fff;
+  color: #fff;
+}
+
+#about .inner .img_company {
+  max-width: 100%;
+  height: 40rem;
+}
+
+.more a {
+  display: block;
+  border: 1px #222 solid;
+  font-family: 'Arial', sans-serif;
+  text-align: center;
+  font-size: 1.4rem;
+  padding: 12px 10px 16px 10px;
+  font-weight: bold;
+  color: #222;
+  position: relative;
+  margin-top: 3.0rem;
+  text-decoration: none;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+.more a::before {
+  content: "";
+  display: block;
+  width: 4px;
+  height: 4px;
+  border-bottom: 2px #fff solid;
+  border-right: 2px #fff solid;
+  -webkit-transform: rotate(-45deg);
+          transform: rotate(-45deg);
+  position: absolute;
+  right: 15px;
+  top: 42%;
+}
+
+@media screen and (max-width: 960px) {
+  #about .inner .aboutCompany .company figure {
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
+    position: static;
+    width: 100%;
+    display: block;
+  }
+  #about .inner .aboutCompany .company .text {
+    -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+            order: 2;
+    margin-top: -80px;
+    margin-left: auto;
+    margin-right: auto;
+    min-height: auto;
+  }
+  #about .inner .aboutCompany .company .text .text_h3 {
+    text-align: center;
+    line-height: 100%;
+  }
+  #about .inner .aboutCompany .company .img_company {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  #about .inner .aboutCompany .company {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  #about .inner .aboutCompany .company figure {
+    position: static;
+  }
+  #about .inner .aboutCompany .company .text {
+    width: 80%;
+    padding: 20px;
+    margin-top: -60px;
+  }
+  #about .inner .aboutCompany .company .text .text_h3 {
+    font-size: 3.0rem;
+    margin-bottom: 12px;
+  }
+  #about .inner .aboutCompany .company .text p {
+    font-size: 1.2rem;
+    line-height: 180%;
+  }
+}
+
+.sp {
+  display: block;
+  font-size: 1.4rem;
+  line-height: 100%;
+  font-family: 'Noto Sans JP', sans-serif;
+  margin-bottom: 10px;
 }
 /*# sourceMappingURL=style.css.map */
