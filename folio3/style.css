@@ -4,11 +4,11 @@
 }
 
 .navbar {
-  background-color: #fff;
+  background-color: rgba(255, 255, 255, 0.774);
 }
 
 .navbar-light .navbar-toggler {
-  border-color: #fff;
+  border-color: rgba(255, 255, 255, 0.774);
 }
 
 .navbar-item {
