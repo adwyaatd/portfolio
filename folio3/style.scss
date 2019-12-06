@@ -1,8 +1,24 @@
-
-html{
-    font-family: 0swald, sans-serif;
-    font-size: 62.5%;
+.class_cop{
+    margin-right: auto;
+    font-family: 'Arial', sans-serif;
 }
+
+.navbar{
+    background-color: #fff;   
+}
+
+.navbar-light {
+    .navbar-toggler{
+        border-color: #fff;
+    }
+}
+ 
+.navbar-item{
+    font-size: 1.5rem;
+    border-bottom: 1px solid rgb(201, 201, 201);
+}
+
+
 
 #main-visual{
     background: url(/img/main-visual.jpg) no-repeat center center;
@@ -13,49 +29,27 @@ html{
     align-items: center;
     margin-top: 0;
     min-height: 650px;
-}
-.inner{
-    max-width: 1024px;
-    margin-left: auto;
-    margin-right: auto;
-}
-section{
-   h2{
-    font-size: 1.8rem;
-    font-weight: 400;
-    text-align: center;
-    position: relative;
-    padding-bottom: 15px;
-    margin-bottom: 6rem;
-    
-    span{
-        display: block;
-        font-size: 6rem;
-        font-family: "Arial",sans-serif;
-        font-weight: bold;
-        letter-spacing: 1.5px;
-        }
-
-    &::before{
-        content: '';
-        display: block;
-        width: 30px;
-        height: 4px;
-        background-color: #009ce8;
-        position: relative;
-        left: calc(50% - 15px);
-        bottom: 0;}
+    .top_message{
+        font-size: 4vw;
+        font-family:'Arial', sans-serif;
+    }
+    .top_message_p{
+        margin-top: 3rem;
+        font-size: 3vw;
+        font-family:'Arial', sans-serif;
     }
 }
 
 #about .inner {
+    margin-top: 4rem;
     .histories{
-        margin-left: 5%;
-        margin-right: 5%;
+        margin-left: 1rem;
+        margin-right: 1rem;
     }
     .row{
         .history{
         width: 30%;
+        margin-bottom: 4rem;
         .ttl{
             text-align: center;
             letter-spacing: 2px;
@@ -68,12 +62,12 @@ section{
             .bottom{
                 color: #000000;
                 font-weight: bold;
-                font-size: 3rem;
+                font-size: 3vmax;
                 margin-top: 12px;
                 border-bottom: 1px solid #000;
                 padding-bottom: 30px;
                 span{
-                    font-size: 6rem;
+                    font-size: 5rem;
                     font-family: "0swald", sans-serif;
                     font-weight: 400;
                 }
@@ -139,6 +133,226 @@ section{
     }
     
 }
+
+#contact{
+    margin-top: 8rem;
+    text-align: center;
+    p{
+        font-weight: bold;
+        font-size: 2.4rem;
+    }
+    .message{
+        color: #009ce8;
+        font-size: 3rem;
+    }
+    .person{
+        margin: 6rem 0;
+        figure{
+            margin-left: auto;
+            margin-right: auto;
+            max-width: 120rem;
+            img{
+                width: 100%;
+            }
+        }
+    }
+    .toForm{
+        margin-top: 3rem;
+        .inquiry{
+            font-weight: normal;
+            font-size: 2rem;
+            line-height: 120%;
+            margin-bottom: 20px;
+        }
+        p{
+            font-weight: normal;
+            font-size: 1.6rem;
+            line-height: 120%;
+            margin-bottom: 20px;
+        }
+        .tel{
+            display: table;
+            margin-left: auto;
+            margin-right: auto;
+            background-size: 22px auto;
+            padding: 3px 0 3px 26px;
+            a{
+                color: #009ce8;
+                font-size: 2.6rem;
+                font-weight: bold;
+                pointer-events: none;
+            }
+        }
+        .more{
+            max-width: 40rem;
+            margin-left: auto;
+            margin-right: auto;
+            a{
+                background-color: #222;
+                color: #fff;
+                font-family: 'Noto Sans JP', sans-serif;
+            }
+        }
+    }
+}
+
+footer{
+    margin-top: 8.0rem;
+    background-color: rgb(0, 0, 0);
+    padding-top: 4rem;
+    h2{
+        color: #fff;
+    }
+    p{
+        color: #fff;
+    }
+    .eigyoTime{
+        font-size: 1.4rem;
+        margin-top: 15px;
+    }
+
+    #office{
+        p{
+            color: #ffffff;
+        }
+        .ttl{
+            font-family: 'Arial', sans-serif;
+            font-size: 3.0rem;
+            font-weight: bold;
+            letter-spacing: 2px;
+            line-height: 100%;
+            margin-bottom: 16px;
+        }
+        .office{
+            margin-bottom: 8px;
+            align-items: center;
+        }
+        .label{
+            border: 1px #fff solid;
+            font-weight: bold;
+            font-size: 1.4rem;
+            padding: 3px 14px;
+            line-height: 160%;
+            text-align: center;
+            width: 11rem;
+        }
+        .addr{
+            font-size: 1.2rem;
+            padding-left: 2.0rem;
+            letter-spacing: 1px;
+        }
+    }
+    .ftTel{
+        p{
+            font-size: 1.2rem;
+            text-align: center;
+        }
+        .tel{
+            margin-left: auto;
+            margin-right: auto;
+            padding: 3px 0 3px 26px;
+            line-height: 180%;
+            a{
+                color: #fff;
+                font-size: 2.6rem;
+                font-weight: bold;
+            }
+        }
+    }
+
+    nav{
+        .spFlexRow{
+            padding-left: 0;
+        }
+        ul{
+            margin-top: 3rem;
+            flex-wrap: wrap !important;
+            li{
+                width: 50%;
+                a{
+                    display: block;
+                    padding: 12px 10px;
+                    text-align: center;
+                    font-size: 1.4rem;
+                    border: 1px #fff solid;
+                    border-left: none;
+                    border-bottom: none;
+                    color: #fff;
+                    position: relative;
+                    &::before{
+                        content:"";
+                        display: block;
+                        width: 4px;
+                        height: 4px;
+                        border-left: 2px #fff solid;
+                        border-bottom: 2px #fff solid;
+                        transform: rotate(-135deg);
+                        position: absolute;
+                        top: 45%;
+                        right: 15px;
+                    }
+                }
+                &:nth-child(2) a{
+                    border-right: none;
+                }
+                
+            }
+            .contact{
+                width: 100%;
+                background-color: #009ce8;
+                color: #fff;
+                a{
+                    border: none;
+                }
+            }
+        }
+    }
+    .sp{
+        margin-bottom: 0;
+    }
+}
+
+//global////////////////
+html{
+    font-family: 0swald, sans-serif;
+    font-size: 62.5%;
+}
+
+.inner{
+    max-width: 1024px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+section{
+    h2{
+     font-size: 1.8rem;
+     font-weight: 400;
+     text-align: center;
+     position: relative;
+     padding-bottom: 15px;
+     margin-bottom: 6rem;
+     
+     span{
+         display: block;
+         font-size: 6rem;
+         font-family: "Arial",sans-serif;
+         font-weight: bold;
+         letter-spacing: 1.5px;
+         }
+ 
+     &::before{
+         content: '';
+         display: block;
+         width: 30px;
+         height: 4px;
+         background-color: #009ce8;
+         position: absolute;
+         left: calc(50% - 15px);
+         bottom: 0;}
+     }
+}
+
 .more{
     a{
         display: block;
@@ -168,7 +382,63 @@ section{
     }
 }
 
+.sp{
+    display: block;
+    font-size: 1.4rem;
+    line-height: 100%;
+    font-family: 'Noto Sans JP', sans-serif;
+    margin-bottom: 10px;
+}
 
+.container{
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.pc{
+    display: block;
+}
+
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.flex-between{
+    justify-content: space-between;
+}
+
+nav ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+//1200//////////////////
+@media screen and (max-width: 1200px){
+    #contact{
+        padding-left: 0;
+        padding-right: 0;
+    }
+    footer{
+        padding-bottom: 0;
+    }
+}
+
+//1024//////////////////
+@media screen and (max-width: 1024px){
+    footer{
+        padding: 3.0rem 0 0 0;
+        
+    }
+  
+}
+
+//960//////////////////
 @media screen and (max-width: 960px){
     #about .inner .aboutCompany{
         .company {
@@ -193,9 +463,36 @@ section{
                 width: 100%;
             }
     }
+    #contact{
+        .message{
+                font-size: 2.4rem;
+        }
+        .message{
+            color: #009ce8;
+            font-size: 3rem;
+        }
+        .toForm{
+            .inquiry{
+                font-size: 2rem;
+            }
+        }
+        .person{
+            margin: 6rem 0;
+            figure{
+                margin-left: auto;
+                margin-right: auto;
+                max-width: 120rem;
+                img{
+                    width: 100%;
+                }
+            }
+        }
+    }
 }
 }
 
+
+//767////////////////////
 @media only screen and (max-width: 767px){
     #about .inner .aboutCompany{
         .company {
@@ -218,12 +515,56 @@ section{
             }
         }
     }
-}
+    
+    #contact{
+        p{
+            font-weight: normal;
+            line-height: 160%;
+        }
+        .message{
+            font-size: 2.4rem;
+        }
+        .message_s{
+            font-size: 2rem;
+        }
+        .toForm{
+            .inquiry{
+                font-size: 2rem;
+            }
+        }
+    }
 
-.sp{
-    display: block;
-    font-size: 1.4rem;
-    line-height: 100%;
-    font-family: 'Noto Sans JP', sans-serif;
-    margin-bottom: 10px;
+    .sp{
+        display: block;
+    }
+
+    footer{
+        margin-top: 0;
+    }
+
+    .flex{
+        flex-direction: column;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+    }
+    
+    .spFlexRow{
+        flex-direction: row;
+        flex-wrap: nowrap;
+    }
+
+    .pc{
+        text-align: center;
+    }
+    
+    #office{
+        margin-top: 4rem;
+    }
+    #logo{
+        h2{
+            font-size: 2.8rem;
+        }
+    }
+
 }

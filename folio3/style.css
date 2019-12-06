@@ -1,6 +1,19 @@
-html {
-  font-family: 0swald, sans-serif;
-  font-size: 62.5%;
+.class_cop {
+  margin-right: auto;
+  font-family: 'Arial', sans-serif;
+}
+
+.navbar {
+  background-color: #fff;
+}
+
+.navbar-light .navbar-toggler {
+  border-color: #fff;
+}
+
+.navbar-item {
+  font-size: 1.5rem;
+  border-bottom: 1px solid #c9c9c9;
 }
 
 #main-visual {
@@ -18,47 +31,29 @@ html {
   min-height: 650px;
 }
 
-.inner {
-  max-width: 1024px;
-  margin-left: auto;
-  margin-right: auto;
+#main-visual .top_message {
+  font-size: 4vw;
+  font-family: 'Arial', sans-serif;
 }
 
-section h2 {
-  font-size: 1.8rem;
-  font-weight: 400;
-  text-align: center;
-  position: relative;
-  padding-bottom: 15px;
-  margin-bottom: 6rem;
+#main-visual .top_message_p {
+  margin-top: 3rem;
+  font-size: 3vw;
+  font-family: 'Arial', sans-serif;
 }
 
-section h2 span {
-  display: block;
-  font-size: 6rem;
-  font-family: "Arial",sans-serif;
-  font-weight: bold;
-  letter-spacing: 1.5px;
-}
-
-section h2::before {
-  content: '';
-  display: block;
-  width: 30px;
-  height: 4px;
-  background-color: #009ce8;
-  position: relative;
-  left: calc(50% - 15px);
-  bottom: 0;
+#about .inner {
+  margin-top: 4rem;
 }
 
 #about .inner .histories {
-  margin-left: 5%;
-  margin-right: 5%;
+  margin-left: 1rem;
+  margin-right: 1rem;
 }
 
 #about .inner .row .history {
   width: 30%;
+  margin-bottom: 4rem;
 }
 
 #about .inner .row .history .ttl {
@@ -76,14 +71,14 @@ section h2::before {
 #about .inner .row .history .ttl .bottom {
   color: #000000;
   font-weight: bold;
-  font-size: 3rem;
+  font-size: 3vmax;
   margin-top: 12px;
   border-bottom: 1px solid #000;
   padding-bottom: 30px;
 }
 
 #about .inner .row .history .ttl .bottom span {
-  font-size: 6rem;
+  font-size: 5rem;
   font-family: "0swald", sans-serif;
   font-weight: 400;
 }
@@ -161,6 +156,250 @@ section h2::before {
   height: 40rem;
 }
 
+#contact {
+  margin-top: 8rem;
+  text-align: center;
+}
+
+#contact p {
+  font-weight: bold;
+  font-size: 2.4rem;
+}
+
+#contact .message {
+  color: #009ce8;
+  font-size: 3rem;
+}
+
+#contact .person {
+  margin: 6rem 0;
+}
+
+#contact .person figure {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 120rem;
+}
+
+#contact .person figure img {
+  width: 100%;
+}
+
+#contact .toForm {
+  margin-top: 3rem;
+}
+
+#contact .toForm .inquiry {
+  font-weight: normal;
+  font-size: 2rem;
+  line-height: 120%;
+  margin-bottom: 20px;
+}
+
+#contact .toForm p {
+  font-weight: normal;
+  font-size: 1.6rem;
+  line-height: 120%;
+  margin-bottom: 20px;
+}
+
+#contact .toForm .tel {
+  display: table;
+  margin-left: auto;
+  margin-right: auto;
+  background-size: 22px auto;
+  padding: 3px 0 3px 26px;
+}
+
+#contact .toForm .tel a {
+  color: #009ce8;
+  font-size: 2.6rem;
+  font-weight: bold;
+  pointer-events: none;
+}
+
+#contact .toForm .more {
+  max-width: 40rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#contact .toForm .more a {
+  background-color: #222;
+  color: #fff;
+  font-family: 'Noto Sans JP', sans-serif;
+}
+
+footer {
+  margin-top: 8.0rem;
+  background-color: black;
+  padding-top: 4rem;
+}
+
+footer h2 {
+  color: #fff;
+}
+
+footer p {
+  color: #fff;
+}
+
+footer .eigyoTime {
+  font-size: 1.4rem;
+  margin-top: 15px;
+}
+
+footer #office p {
+  color: #ffffff;
+}
+
+footer #office .ttl {
+  font-family: 'Arial', sans-serif;
+  font-size: 3.0rem;
+  font-weight: bold;
+  letter-spacing: 2px;
+  line-height: 100%;
+  margin-bottom: 16px;
+}
+
+footer #office .office {
+  margin-bottom: 8px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+footer #office .label {
+  border: 1px #fff solid;
+  font-weight: bold;
+  font-size: 1.4rem;
+  padding: 3px 14px;
+  line-height: 160%;
+  text-align: center;
+  width: 11rem;
+}
+
+footer #office .addr {
+  font-size: 1.2rem;
+  padding-left: 2.0rem;
+  letter-spacing: 1px;
+}
+
+footer .ftTel p {
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+footer .ftTel .tel {
+  margin-left: auto;
+  margin-right: auto;
+  padding: 3px 0 3px 26px;
+  line-height: 180%;
+}
+
+footer .ftTel .tel a {
+  color: #fff;
+  font-size: 2.6rem;
+  font-weight: bold;
+}
+
+footer nav .spFlexRow {
+  padding-left: 0;
+}
+
+footer nav ul {
+  margin-top: 3rem;
+  -ms-flex-wrap: wrap !important;
+      flex-wrap: wrap !important;
+}
+
+footer nav ul li {
+  width: 50%;
+}
+
+footer nav ul li a {
+  display: block;
+  padding: 12px 10px;
+  text-align: center;
+  font-size: 1.4rem;
+  border: 1px #fff solid;
+  border-left: none;
+  border-bottom: none;
+  color: #fff;
+  position: relative;
+}
+
+footer nav ul li a::before {
+  content: "";
+  display: block;
+  width: 4px;
+  height: 4px;
+  border-left: 2px #fff solid;
+  border-bottom: 2px #fff solid;
+  -webkit-transform: rotate(-135deg);
+          transform: rotate(-135deg);
+  position: absolute;
+  top: 45%;
+  right: 15px;
+}
+
+footer nav ul li:nth-child(2) a {
+  border-right: none;
+}
+
+footer nav ul .contact {
+  width: 100%;
+  background-color: #009ce8;
+  color: #fff;
+}
+
+footer nav ul .contact a {
+  border: none;
+}
+
+footer .sp {
+  margin-bottom: 0;
+}
+
+html {
+  font-family: 0swald, sans-serif;
+  font-size: 62.5%;
+}
+
+.inner {
+  max-width: 1024px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+section h2 {
+  font-size: 1.8rem;
+  font-weight: 400;
+  text-align: center;
+  position: relative;
+  padding-bottom: 15px;
+  margin-bottom: 6rem;
+}
+
+section h2 span {
+  display: block;
+  font-size: 6rem;
+  font-family: "Arial",sans-serif;
+  font-weight: bold;
+  letter-spacing: 1.5px;
+}
+
+section h2::before {
+  content: '';
+  display: block;
+  width: 30px;
+  height: 4px;
+  background-color: #009ce8;
+  position: absolute;
+  left: calc(50% - 15px);
+  bottom: 0;
+}
+
 .more a {
   display: block;
   border: 1px #222 solid;
@@ -191,6 +430,66 @@ section h2::before {
   top: 42%;
 }
 
+.sp {
+  display: block;
+  font-size: 1.4rem;
+  line-height: 100%;
+  font-family: 'Noto Sans JP', sans-serif;
+  margin-bottom: 10px;
+}
+
+.container {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.pc {
+  display: block;
+}
+
+.flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.flex-between {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+nav ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+@media screen and (max-width: 1200px) {
+  #contact {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  footer {
+    padding-bottom: 0;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  footer {
+    padding: 3.0rem 0 0 0;
+  }
+}
+
 @media screen and (max-width: 960px) {
   #about .inner .aboutCompany .company figure {
     -webkit-box-ordinal-group: 2;
@@ -214,6 +513,27 @@ section h2::before {
     line-height: 100%;
   }
   #about .inner .aboutCompany .company .img_company {
+    width: 100%;
+  }
+  #about .inner .aboutCompany #contact .message {
+    font-size: 2.4rem;
+  }
+  #about .inner .aboutCompany #contact .message {
+    color: #009ce8;
+    font-size: 3rem;
+  }
+  #about .inner .aboutCompany #contact .toForm .inquiry {
+    font-size: 2rem;
+  }
+  #about .inner .aboutCompany #contact .person {
+    margin: 6rem 0;
+  }
+  #about .inner .aboutCompany #contact .person figure {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 120rem;
+  }
+  #about .inner .aboutCompany #contact .person figure img {
     width: 100%;
   }
 }
@@ -241,13 +561,47 @@ section h2::before {
     font-size: 1.2rem;
     line-height: 180%;
   }
-}
-
-.sp {
-  display: block;
-  font-size: 1.4rem;
-  line-height: 100%;
-  font-family: 'Noto Sans JP', sans-serif;
-  margin-bottom: 10px;
+  #contact p {
+    font-weight: normal;
+    line-height: 160%;
+  }
+  #contact .message {
+    font-size: 2.4rem;
+  }
+  #contact .message_s {
+    font-size: 2rem;
+  }
+  #contact .toForm .inquiry {
+    font-size: 2rem;
+  }
+  .sp {
+    display: block;
+  }
+  footer {
+    margin-top: 0;
+  }
+  .flex {
+    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+  }
+  .spFlexRow {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+  }
+  .pc {
+    text-align: center;
+  }
+  #office {
+    margin-top: 4rem;
+  }
+  #logo h2 {
+    font-size: 2.8rem;
+  }
 }
 /*# sourceMappingURL=style.css.map */
