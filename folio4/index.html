@@ -12,7 +12,7 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-md bg-secondary text-uppercase fixed-top" id="mainNav">
+    <nav class="navbar navbar-expand-xl bg-secondary text-uppercase fixed-top" id="mainNav">
         <div class="container">
             <a href="#" class="navbar-brand js-scroll-trigger text-white">Blue</a>
             <button class="navbar-toggler navbar-toggler-right 
@@ -24,13 +24,13 @@
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item mx-0 mx-lg-1">
-                        <a href="#" class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger">A</a>
+                        <a href="#" class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger text-white">栄養</a>
                     </li>
                     <li class="nav-item mx-0 mx-lg-1">
-                        <a href="#" class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger">B</a>
+                        <a href="#" class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger text-white">美味しい食べ方</a>
                     </li>
                     <li class="nav-item mx-0 mx-lg-1">
-                        <a href="#" class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger">C</a>
+                        <a href="#" class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger text-white">種類</a>
                     </li>
                 </ul>
             </div>
@@ -38,7 +38,7 @@
     </nav>
     <header class="masthead bg-info text-white text-center mt-5">
         <div class="container d-flex align-items-center flex-column mt-5">
-            <img src="/img/icon.png" alt="" class="mb-5 w-25 mt-5">
+            <img src="/img/icon.png" alt="" class="m-2 w-25 mt-5">
             <h1 class="">和牛</h1>
             <div class="">
                 <div class=""></div>
@@ -52,29 +52,97 @@
     </header>
     <section class="page-section portfolio" id="portfolio">
         <div class="container">
-            <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">V6（部位6種）</h2>
-            <div class="divider-custom">
+            <h2 class="page-section-heading text-center text-uppercase text-secondary m-3">V6（部位6種）</h2>
+            <div class="divider-custom m-4">
                 <div class="divider-custom-line"></div>
-                <div class="divider-custom-icon">
+                <div class="divider-custom-icon text-center">
                     <i class="fas fa-star"></i>
                 </div>
                 <div class="divider-custom-line"></div>
             </div>
             <div class="row">
-                <div class="col-md-6 col-lg-4">
-                    <div class="">
-                        <div class="">
-                            <div class="">
-                                <i class=""></i>
-                            </div>
-                        </div>
-                        <img src="" alt="" class="">
-                    </div>
+                <div class="col-md-6 col-lg-4 folio" data-toggle="modal" data-target="#portfolioModal1">
+                    <h5 class="text-center folio-font">カルビ</h5>
+                    <img src="/img/karubi.jpg" alt="" class="img-fluid h-100 rounded">
+                </div>
+                <div class="col-md-6 col-lg-4 folio" data-toggle="modal" data-target="#portfolioModal1">
+                    <h5 class="text-center folio-font">ミノ</h5>
+                    <img src="/img/mino.jpeg" alt="" class="img-fluid h-100 rounded">
+                </div>
+                <div class="col-md-6 col-lg-4 folio" data-toggle="modal" data-target="#portfolioModal1">
+                    <h5 class="text-center folio-font">ロース</h5>
+                    <img src="/img/ro-su.jpeg" alt="" class="img-fluid h-100 rounded">
+                </div>
+                <div class="col-md-6 col-lg-4 folio" data-toggle="modal" data-target="#portfolioModal1">
+                    <h5 class="text-center folio-font">サーロイン</h5>
+                    <img src="/img/sa-roin.jpeg" alt="" class="img-fluid h-100 rounded">
+                </div>
+                <div class="col-md-6 col-lg-4 folio" data-toggle="modal" data-target="#portfolioModal1">
+                    <h5 class="text-center folio-font">ハラミ</h5>
+                    <img src="/img/harami.jpg" alt="" class="img-fluid h-100 rounded">
+                </div>
+                <div class="col-md-6 col-lg-4 folio" data-toggle="modal" data-target="#portfolioModal1">
+                    <h5 class="text-center folio-font">タン</h5>
+                    <img src="/img/tann.jpg" alt="" class="img-fluid h-100 rounded">
                 </div>
             </div>
             <!-- row -->
         </div>
     </section>
+
+    <footer class="footer text-center text-white bg-secondary">
+            <div class="container">
+              <div class="row">
+        
+                <!-- Footer Location -->
+                <div class="col-lg-4 mb-lg-0">
+                  <h4 class="text-uppercase mb-4">Location</h4>
+                  <p class="lead mb-0">【牛人】札幌本店
+                    <br>北海道札幌市本町1-2-3</p>
+                </div>
+        
+                <!-- Footer Social Icons -->
+                <div class="col-lg-4 mb-lg-0">
+                  <h4 class="text-uppercase mb-4">Around the Web</h4>
+                  <a class="btn btn-outline-primary btn-social mx-1" href="#">
+                    <i class="fab fa-fw fa-facebook-f"></i>
+                  </a>
+                  <a class="btn btn-outline-primary btn-social mx-1" href="#">
+                    <i class="fab fa-fw fa-twitter"></i>
+                  </a>
+                  <a class="btn btn-outline-primary btn-social mx-1" href="#">
+                    <i class="fab fa-fw fa-linkedin-in"></i>
+                  </a>
+                  <a class="btn btn-outline-primary btn-social mx-1" href="#">
+                    <i class="fab fa-fw fa-dribbble"></i>
+                  </a>
+                </div>
+        
+                <!-- Footer About Text -->
+                <div class="col-lg-4">
+                  <h4 class="text-uppercase mb-4">About Us</h4>
+                  <p class="lead mb-0">詳しい店舗情報は下記リンクよりご参照ください。
+                    <br>
+                    <a class="text-white" href="#">〜牛肉料理専門店【牛人】〜</a></p>
+                </div>
+        
+              </div>
+            </div>
+        
+          <!-- Copyright Section -->
+          <section class="copyright py-4 text-center text-white">
+            <div class="container">
+              <small>Copyright &copy; Wagyu 2019</small>
+            </div>
+          </section>
+        
+          <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
+          <div class="scroll-to-top d-lg-none position-fixed ">
+            <a class="js-scroll-trigger d-block text-center text-white rounded" href="#page-top">
+              <i class="fa fa-chevron-up"></i>
+            </a>
+          </div>
+        </footer>
 
 
 

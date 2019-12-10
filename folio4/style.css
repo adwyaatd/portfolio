@@ -1,1 +1,14 @@
-/* No CSS *//*# sourceMappingURL=style.css.map */
+.folio {
+  height: 250px;
+  margin: 20px 0 40px 0;
+}
+
+.folio-font {
+  font-family: serif;
+}
+
+.footer {
+  margin-top: 50px;
+  padding-top: 50px;
+}
+/*# sourceMappingURL=style.css.map */
