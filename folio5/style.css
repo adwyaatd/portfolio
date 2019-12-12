@@ -1,0 +1,55 @@
+html {
+  font-size: 62.5%;
+}
+
+.navbar-fz {
+  font-size: 2vw;
+}
+
+.snslogo {
+  background-color: #fff;
+  height: 10vh;
+  border-radius: 50%;
+  border: 1px solid #fff;
+}
+
+.navbar-dark .navbar-toggler {
+  border-color: #fff;
+}
+
+.bg-header {
+  background-color: #fca400;
+}
+
+.box-yt {
+  height: 50rem;
+}
+
+.yt-h {
+  height: 90%;
+}
+
+.text-ins {
+  color: #ff6bff;
+}
+
+.text-fb {
+  color: #3813db;
+}
+
+.bg-yt {
+  background-color: #ffcdcd;
+}
+
+.bg-tw {
+  background-color: #feffcd;
+}
+
+.bg-ins {
+  background-color: #cfffcd;
+}
+
+.bg-fb {
+  background-color: #cdf9ff;
+}
+/*# sourceMappingURL=style.css.map */
